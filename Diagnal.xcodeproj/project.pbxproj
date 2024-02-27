@@ -46,6 +46,7 @@
 		1DC801702B8D0B4400A63980 /* CONTENTLISTINGPAGE-PAGE3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "CONTENTLISTINGPAGE-PAGE3.json"; sourceTree = "<group>"; };
 		1DC801712B8D0B4400A63980 /* CONTENTLISTINGPAGE-PAGE1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "CONTENTLISTINGPAGE-PAGE1.json"; sourceTree = "<group>"; };
 		1DC801752B8D0BEA00A63980 /* RomanticComedyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanticComedyModel.swift; sourceTree = "<group>"; };
+		1DC801782B8E52E700A63980 /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,7 @@
 		1DC801422B8CFD1900A63980 /* Diagnal */ = {
 			isa = PBXGroup;
 			children = (
+				1DC801772B8E52D200A63980 /* Font */,
 				1DC8016E2B8D0B1C00A63980 /* Resources */,
 				1DC801672B8D026700A63980 /* Extension+UiViewController */,
 				1DC801642B8D023000A63980 /* Helper */,
@@ -162,6 +164,14 @@
 				1DC801702B8D0B4400A63980 /* CONTENTLISTINGPAGE-PAGE3.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		1DC801772B8E52D200A63980 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1DC801782B8E52E700A63980 /* TitilliumWeb-Light.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

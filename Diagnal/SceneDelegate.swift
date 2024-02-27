@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  Diagnal
-//
-//  Created by suraj jadhav on 26/02/24.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {

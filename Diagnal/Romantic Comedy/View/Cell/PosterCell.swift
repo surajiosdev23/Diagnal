@@ -1,10 +1,3 @@
-//
-//  PosterCell.swift
-//  Diagnal
-//
-//  Created by suraj jadhav on 26/02/24.
-//
-
 import UIKit
 
 class PosterCell: UICollectionViewCell {
@@ -13,6 +6,6 @@ class PosterCell: UICollectionViewCell {
     @IBOutlet weak var ibTitle: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
+        ibTitle.font = UIFont(name: "TitilliumWeb-Light", size: 18)
     }
-
 }

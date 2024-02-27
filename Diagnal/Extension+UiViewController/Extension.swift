@@ -1,10 +1,3 @@
-//
-//  Extension.swift
-//  Diagnal
-//
-//  Created by suraj jadhav on 26/02/24.
-//
-
 import UIKit
 extension UIViewController {
     func setupCollectionViewFlowLayout(withRowHeight rowHeight: CGFloat, columnCount: Int, itemSpacing: CGFloat, rowSpacing: CGFloat, edgeInsets: UIEdgeInsets) -> UICollectionViewFlowLayout {
