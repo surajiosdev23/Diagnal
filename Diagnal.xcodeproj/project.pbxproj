@@ -15,6 +15,15 @@
 		1DC801502B8CFD1A00A63980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DC8014E2B8CFD1A00A63980 /* LaunchScreen.storyboard */; };
 		1DC8015D2B8CFE2B00A63980 /* RomanticComedyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC8015B2B8CFE2B00A63980 /* RomanticComedyVC.swift */; };
 		1DC8015E2B8CFE2B00A63980 /* RomanticComedyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DC8015C2B8CFE2B00A63980 /* RomanticComedyVC.xib */; };
+		1DC801622B8D011D00A63980 /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC801602B8D011D00A63980 /* PosterCell.swift */; };
+		1DC801632B8D011D00A63980 /* PosterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DC801612B8D011D00A63980 /* PosterCell.xib */; };
+		1DC801662B8D024700A63980 /* CustomCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC801652B8D024700A63980 /* CustomCollectionViewLayout.swift */; };
+		1DC8016B2B8D02AE00A63980 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC8016A2B8D02AE00A63980 /* Extension.swift */; };
+		1DC8016D2B8D0AE200A63980 /* RomanticComedyVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC8016C2B8D0AE200A63980 /* RomanticComedyVM.swift */; };
+		1DC801722B8D0B4400A63980 /* CONTENTLISTINGPAGE-PAGE2.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DC8016F2B8D0B4400A63980 /* CONTENTLISTINGPAGE-PAGE2.json */; };
+		1DC801732B8D0B4400A63980 /* CONTENTLISTINGPAGE-PAGE3.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DC801702B8D0B4400A63980 /* CONTENTLISTINGPAGE-PAGE3.json */; };
+		1DC801742B8D0B4400A63980 /* CONTENTLISTINGPAGE-PAGE1.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DC801712B8D0B4400A63980 /* CONTENTLISTINGPAGE-PAGE1.json */; };
+		1DC801762B8D0BEA00A63980 /* RomanticComedyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC801752B8D0BEA00A63980 /* RomanticComedyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +37,15 @@
 		1DC801512B8CFD1A00A63980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DC8015B2B8CFE2B00A63980 /* RomanticComedyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanticComedyVC.swift; sourceTree = "<group>"; };
 		1DC8015C2B8CFE2B00A63980 /* RomanticComedyVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RomanticComedyVC.xib; sourceTree = "<group>"; };
+		1DC801602B8D011D00A63980 /* PosterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
+		1DC801612B8D011D00A63980 /* PosterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PosterCell.xib; sourceTree = "<group>"; };
+		1DC801652B8D024700A63980 /* CustomCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewLayout.swift; sourceTree = "<group>"; };
+		1DC8016A2B8D02AE00A63980 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		1DC8016C2B8D0AE200A63980 /* RomanticComedyVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanticComedyVM.swift; sourceTree = "<group>"; };
+		1DC8016F2B8D0B4400A63980 /* CONTENTLISTINGPAGE-PAGE2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "CONTENTLISTINGPAGE-PAGE2.json"; sourceTree = "<group>"; };
+		1DC801702B8D0B4400A63980 /* CONTENTLISTINGPAGE-PAGE3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "CONTENTLISTINGPAGE-PAGE3.json"; sourceTree = "<group>"; };
+		1DC801712B8D0B4400A63980 /* CONTENTLISTINGPAGE-PAGE1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "CONTENTLISTINGPAGE-PAGE1.json"; sourceTree = "<group>"; };
+		1DC801752B8D0BEA00A63980 /* RomanticComedyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanticComedyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,9 @@
 		1DC801422B8CFD1900A63980 /* Diagnal */ = {
 			isa = PBXGroup;
 			children = (
+				1DC8016E2B8D0B1C00A63980 /* Resources */,
+				1DC801672B8D026700A63980 /* Extension+UiViewController */,
+				1DC801642B8D023000A63980 /* Helper */,
 				1DC801572B8CFDC000A63980 /* Romantic Comedy */,
 				1DC801432B8CFD1900A63980 /* AppDelegate.swift */,
 				1DC801452B8CFD1900A63980 /* SceneDelegate.swift */,
@@ -85,6 +106,7 @@
 		1DC801582B8CFDFB00A63980 /* View Model */ = {
 			isa = PBXGroup;
 			children = (
+				1DC8016C2B8D0AE200A63980 /* RomanticComedyVM.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -92,6 +114,7 @@
 		1DC801592B8CFE0400A63980 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1DC8015F2B8D00DA00A63980 /* Cell */,
 				1DC8015B2B8CFE2B00A63980 /* RomanticComedyVC.swift */,
 				1DC8015C2B8CFE2B00A63980 /* RomanticComedyVC.xib */,
 			);
@@ -101,8 +124,44 @@
 		1DC8015A2B8CFE0E00A63980 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1DC801752B8D0BEA00A63980 /* RomanticComedyModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		1DC8015F2B8D00DA00A63980 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1DC801602B8D011D00A63980 /* PosterCell.swift */,
+				1DC801612B8D011D00A63980 /* PosterCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		1DC801642B8D023000A63980 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1DC801652B8D024700A63980 /* CustomCollectionViewLayout.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		1DC801672B8D026700A63980 /* Extension+UiViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1DC8016A2B8D02AE00A63980 /* Extension.swift */,
+			);
+			path = "Extension+UiViewController";
+			sourceTree = "<group>";
+		};
+		1DC8016E2B8D0B1C00A63980 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1DC801712B8D0B4400A63980 /* CONTENTLISTINGPAGE-PAGE1.json */,
+				1DC8016F2B8D0B4400A63980 /* CONTENTLISTINGPAGE-PAGE2.json */,
+				1DC801702B8D0B4400A63980 /* CONTENTLISTINGPAGE-PAGE3.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,8 +223,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DC8015E2B8CFE2B00A63980 /* RomanticComedyVC.xib in Resources */,
+				1DC801732B8D0B4400A63980 /* CONTENTLISTINGPAGE-PAGE3.json in Resources */,
+				1DC801742B8D0B4400A63980 /* CONTENTLISTINGPAGE-PAGE1.json in Resources */,
 				1DC801502B8CFD1A00A63980 /* LaunchScreen.storyboard in Resources */,
 				1DC8014D2B8CFD1A00A63980 /* Assets.xcassets in Resources */,
+				1DC801722B8D0B4400A63980 /* CONTENTLISTINGPAGE-PAGE2.json in Resources */,
+				1DC801632B8D011D00A63980 /* PosterCell.xib in Resources */,
 				1DC8014B2B8CFD1900A63980 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,8 +241,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DC8015D2B8CFE2B00A63980 /* RomanticComedyVC.swift in Sources */,
+				1DC801622B8D011D00A63980 /* PosterCell.swift in Sources */,
+				1DC8016D2B8D0AE200A63980 /* RomanticComedyVM.swift in Sources */,
+				1DC8016B2B8D02AE00A63980 /* Extension.swift in Sources */,
 				1DC801482B8CFD1900A63980 /* ViewController.swift in Sources */,
 				1DC801442B8CFD1900A63980 /* AppDelegate.swift in Sources */,
+				1DC801762B8D0BEA00A63980 /* RomanticComedyModel.swift in Sources */,
+				1DC801662B8D024700A63980 /* CustomCollectionViewLayout.swift in Sources */,
 				1DC801462B8CFD1900A63980 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
