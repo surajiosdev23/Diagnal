@@ -47,7 +47,7 @@
                 </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" systemColor="darkTextColor"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="d7r-2z-xEx" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="F4B-2B-eIG"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="d7r-2z-xEx" secondAttribute="trailing" id="RkQ-8W-p2N"/>
@@ -57,9 +57,4 @@
             <point key="canvasLocation" x="-37" y="-1"/>
         </view>
     </objects>
-    <resources>
-        <systemColor name="darkTextColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
 </document>
