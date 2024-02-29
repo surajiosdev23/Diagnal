@@ -102,7 +102,8 @@ extension RomanticComedyVC: UICollectionViewDataSource {
         }
         
         if let contentItem = viewModel.contentItem(at: indexPath.row) {
-            cell.ibImage.image = contentItem.posterImage != nil ? UIImage(named: "Slices/\(contentItem.posterImage!)") ?? UIImage(named: "placeholder_for_missing_posters") : UIImage(named: "placeholder_for_missing_posters")
+            let imageName = contentItem.posterImage != nil ? "Slices/\(contentItem.posterImage!)" : "placeholder_for_missing_posters"
+            cell.ibImage.image = UIImage(named: imageName) ?? UIImage(named: "placeholder_for_missing_posters")
             cell.ibTitle.text = contentItem.name ?? "-"
         } else {
             cell.ibImage.image = UIImage(named: "placeholder_for_missing_posters")
@@ -116,7 +117,7 @@ extension RomanticComedyVC: UICollectionViewDataSource {
 // MARK: - UICollectionViewDelegate
 
 extension RomanticComedyVC: UICollectionViewDelegate {
-    func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let offsetY = scrollView.contentOffset.y
         let contentHeight = scrollView.contentSize.height
         let screenHeight = scrollView.frame.size.height
@@ -139,6 +140,6 @@ extension RomanticComedyVC: RomanticComedyVMDelegate {
     func showError(message: String) {
         print("Error: \(message)")
         // You can display an alert or other UI component to inform the user about the error.
+        self.showAlertWith(title: "Error Occured", message: message)
     }
 }
-

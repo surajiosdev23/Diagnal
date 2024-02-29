@@ -17,7 +17,6 @@
 		1DC8015E2B8CFE2B00A63980 /* RomanticComedyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DC8015C2B8CFE2B00A63980 /* RomanticComedyVC.xib */; };
 		1DC801622B8D011D00A63980 /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC801602B8D011D00A63980 /* PosterCell.swift */; };
 		1DC801632B8D011D00A63980 /* PosterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DC801612B8D011D00A63980 /* PosterCell.xib */; };
-		1DC801662B8D024700A63980 /* CustomCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC801652B8D024700A63980 /* CustomCollectionViewLayout.swift */; };
 		1DC8016B2B8D02AE00A63980 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC8016A2B8D02AE00A63980 /* Extension.swift */; };
 		1DC8016D2B8D0AE200A63980 /* RomanticComedyVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC8016C2B8D0AE200A63980 /* RomanticComedyVM.swift */; };
 		1DC801722B8D0B4400A63980 /* CONTENTLISTINGPAGE-PAGE2.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DC8016F2B8D0B4400A63980 /* CONTENTLISTINGPAGE-PAGE2.json */; };
@@ -39,7 +38,6 @@
 		1DC8015C2B8CFE2B00A63980 /* RomanticComedyVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RomanticComedyVC.xib; sourceTree = "<group>"; };
 		1DC801602B8D011D00A63980 /* PosterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
 		1DC801612B8D011D00A63980 /* PosterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PosterCell.xib; sourceTree = "<group>"; };
-		1DC801652B8D024700A63980 /* CustomCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewLayout.swift; sourceTree = "<group>"; };
 		1DC8016A2B8D02AE00A63980 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		1DC8016C2B8D0AE200A63980 /* RomanticComedyVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanticComedyVM.swift; sourceTree = "<group>"; };
 		1DC8016F2B8D0B4400A63980 /* CONTENTLISTINGPAGE-PAGE2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "CONTENTLISTINGPAGE-PAGE2.json"; sourceTree = "<group>"; };
@@ -81,8 +79,7 @@
 			children = (
 				1DC801772B8E52D200A63980 /* Font */,
 				1DC8016E2B8D0B1C00A63980 /* Resources */,
-				1DC801672B8D026700A63980 /* Extension+UiViewController */,
-				1DC801642B8D023000A63980 /* Helper */,
+				1DC801672B8D026700A63980 /* Extension */,
 				1DC801572B8CFDC000A63980 /* Romantic Comedy */,
 				1DC801432B8CFD1900A63980 /* AppDelegate.swift */,
 				1DC801452B8CFD1900A63980 /* SceneDelegate.swift */,
@@ -140,20 +137,12 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
-		1DC801642B8D023000A63980 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				1DC801652B8D024700A63980 /* CustomCollectionViewLayout.swift */,
-			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
-		1DC801672B8D026700A63980 /* Extension+UiViewController */ = {
+		1DC801672B8D026700A63980 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				1DC8016A2B8D02AE00A63980 /* Extension.swift */,
 			);
-			path = "Extension+UiViewController";
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		1DC8016E2B8D0B1C00A63980 /* Resources */ = {
@@ -257,7 +246,6 @@
 				1DC801482B8CFD1900A63980 /* ViewController.swift in Sources */,
 				1DC801442B8CFD1900A63980 /* AppDelegate.swift in Sources */,
 				1DC801762B8D0BEA00A63980 /* RomanticComedyModel.swift in Sources */,
-				1DC801662B8D024700A63980 /* CustomCollectionViewLayout.swift in Sources */,
 				1DC801462B8CFD1900A63980 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,7 +401,7 @@
 				DEVELOPMENT_TEAM = G699VJZFWY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Diagnal/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Diagnal;
+				INFOPLIST_KEY_CFBundleDisplayName = "Stream On";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -442,7 +430,7 @@
 				DEVELOPMENT_TEAM = G699VJZFWY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Diagnal/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Diagnal;
+				INFOPLIST_KEY_CFBundleDisplayName = "Stream On";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

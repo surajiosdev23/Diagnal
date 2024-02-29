@@ -1,16 +1,19 @@
 import UIKit
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    var window: UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         // Set custom navigation bar background image
-        let navBarAppearance = UINavigationBar.appearance()
-        navBarAppearance.setBackgroundImage(UIImage(named: "nav_bar"), for: .default)
+        setUpNavBar()
         return true
     }
-
+    func setUpNavBar(){
+        let navBarAppearance = UINavigationBar.appearance()
+        navBarAppearance.setBackgroundImage(UIImage(named: "nav_bar"), for: .default)
+    }
+    
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {

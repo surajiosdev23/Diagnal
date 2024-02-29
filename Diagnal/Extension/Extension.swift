@@ -10,4 +10,24 @@ extension UIViewController {
         flowLayout.sectionInset = edgeInsets
         return flowLayout
     }
+    func showAlertWith(title: String, message: String, completionHandler: (() -> Void)? = nil) {
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let okayAction = UIAlertAction(title: "Okay", style: .default) { _ in
+            completionHandler?()
+        }
+        alertController.addAction(okayAction)
+        present(alertController, animated: true, completion: nil)
+    }
+}
+
+extension UIView {
+    @IBInspectable var cornerRadius: CGFloat {
+        get {
+            return layer.cornerRadius
+        }
+        set {
+            layer.cornerRadius = newValue
+            layer.masksToBounds = newValue > 0
+        }
+    }
 }
