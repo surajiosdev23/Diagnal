@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KgI-Bv-b8k">
+    <device id="retina6_12" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Stream On-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Diagnal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="gMJ-cI-Qv8">
+                                <rect key="frame" x="84.666666666666686" y="376" width="224" height="100"/>
+                                <subviews>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IJh-st-cN8">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Romantic Comedy" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="irL-HP-v8W">
+                                                <rect key="frame" x="12" y="30.333333333333311" width="76" height="39.666666666666657"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="TtV-Nd-DXp"/>
+                                            <constraint firstItem="irL-HP-v8W" firstAttribute="centerX" secondItem="IJh-st-cN8" secondAttribute="centerX" id="jjc-sW-sQq"/>
+                                            <constraint firstAttribute="trailing" secondItem="irL-HP-v8W" secondAttribute="trailing" constant="12" id="nxu-yb-vbq"/>
+                                            <constraint firstAttribute="width" constant="100" id="paT-JE-AfJ"/>
+                                            <constraint firstItem="irL-HP-v8W" firstAttribute="leading" secondItem="IJh-st-cN8" secondAttribute="leading" constant="12" id="scO-eN-huR"/>
+                                            <constraint firstItem="irL-HP-v8W" firstAttribute="centerY" secondItem="IJh-st-cN8" secondAttribute="centerY" id="vFi-Sw-8Tz"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c38-FA-UtR">
+                                        <rect key="frame" x="124" y="0.0" width="100" height="100"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TV Shows" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Tm-Im-KxJ">
+                                                <rect key="frame" x="12" y="30.333333333333311" width="76" height="39.666666666666657"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                        <constraints>
+                                            <constraint firstItem="2Tm-Im-KxJ" firstAttribute="centerY" secondItem="c38-FA-UtR" secondAttribute="centerY" id="33z-vL-71r"/>
+                                            <constraint firstItem="2Tm-Im-KxJ" firstAttribute="leading" secondItem="c38-FA-UtR" secondAttribute="leading" constant="12" id="3Nv-ad-mvP"/>
+                                            <constraint firstAttribute="trailing" secondItem="2Tm-Im-KxJ" secondAttribute="trailing" constant="12" id="5Fo-6V-BIb"/>
+                                            <constraint firstItem="2Tm-Im-KxJ" firstAttribute="centerX" secondItem="c38-FA-UtR" secondAttribute="centerX" id="Ccl-Dr-JNo"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="c38-FA-UtR" firstAttribute="width" secondItem="IJh-st-cN8" secondAttribute="width" id="kxP-Dp-9kq"/>
+                                    <constraint firstItem="c38-FA-UtR" firstAttribute="height" secondItem="IJh-st-cN8" secondAttribute="height" id="rbB-KV-Izx"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gMJ-cI-Qv8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QNl-Hg-7Gy"/>
+                            <constraint firstItem="gMJ-cI-Qv8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qVv-CT-HXf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Stream On" id="coM-bY-RWB"/>
+                    <connections>
+                        <outlet property="ibRomanticComedyView" destination="IJh-st-cN8" id="eQs-fr-Oxu"/>
+                        <outlet property="ibTvShowsView" destination="c38-FA-UtR" id="AOn-1z-pvT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="889.3129770992366" y="-17.605633802816904"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="kQu-X1-l4F">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KgI-Bv-b8k" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EZb-UP-137">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="1Zg-nE-pWW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gJC-po-oWZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-37.404580152671755" y="-17.605633802816904"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
